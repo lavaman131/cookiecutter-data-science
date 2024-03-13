@@ -17,4 +17,4 @@ dynamic = ["version"]
 packages = ["{{ cookiecutter.repo_name }}"]
 
 [tool.setuptools.dynamic]
-version = { attr = "{{ cookiecutter.repo_name }}.VERSION" }
+version = { attr = "{{ cookiecutter.repo_name }}.__version__" }
